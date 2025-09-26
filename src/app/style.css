@@ -1,0 +1,31 @@
+ root {
+    --gray-200: rgb(114, 114, 114);
+    --gray-800: rgb(43, 42, 42);
+    --slate-500: #c2c2c2;
+ }
+ 
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    gap: 20px;
+    height: 100vh;
+    background-color: var(--gray-200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ h1{
+    font-size:36px;
+    /* Negrito será em bolder  */
+    font-weight: bolder;
+    color: var(--gray-800);
+ }
+.p1{
+    font-size: 24px;
+    color: var(--slate-500);
+ }
+ .p2{
+    font-size: 24px;
+    color: var(--slate-500);
+ }
